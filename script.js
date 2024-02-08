@@ -118,7 +118,7 @@ var c = "I can feel the sun whenever you're near";
         const b = 'I can see the stars all the way from here';
         {
             var c = "Can't you see the glow on the window pane?"
-            // console.log(`${a} ${b} ${c} ${c} ${d}`);
+            console.log(`${a} ${b} ${c} ${c} ${d}`);
         }
     }
     var d = "Every time you touch me I just melt away";
@@ -274,11 +274,17 @@ Write a nested if...else statement.
 Declare a variable called numOne.
 In each statement, log a sentence that makes sense with the condition.
 Add an if...else statement that checks if numOne is positive & greater than 100.
+    100 < numOne
 Add another statement that checks if numONe is positive but less than 100.
+      0 < numOne < 100
 Add a final statement to check if numOne is negative.
+          numOne < 0
 Close out with an else statement saying numOne is not a number.
-
+          NaN
 */
+
+// These instructions... (X__X);
+// Edge cases: numOne == 100, numOne == 0
 
 /* 
 
